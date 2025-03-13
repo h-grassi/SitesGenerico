@@ -1,0 +1,27 @@
+//método para alterar as cores básicas do bootstrap
+$secondary: rgb(170, 170, 63);
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+$cores-customizadas:(
+    "cor-teste": rgb(140, 223, 140)
+);
+
+$theme-colors: map-merge($theme-colors , $cores-customizadas);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.linkNavBar{
+    color: black;
+   }
+
+//imagens para o carrosel devem as mesmas dimensões
+   .imgCarrosel{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.imgCard1{
+    width: 200px;
+    height:200px;
+}

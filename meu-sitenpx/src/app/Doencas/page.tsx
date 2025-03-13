@@ -1,8 +1,20 @@
 export default function Doencas(){
     return(
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <h1>página doenças</h1>
-        <p>tomara que funcione</p>
-        </div>
+        <>
+            <h1>página doenças, Teste cores</h1>
+            <button type="button" className="btn btn-primary">Primary</button>
+            <button type="button" className="btn btn-secondary">Secondary</button>
+            <button type="button" className="btn btn-success">Success</button>
+            <button type="button" className="btn btn-danger">Danger</button>
+            <button type="button" className="btn btn-warning">Warning</button>
+            <button type="button" className="btn btn-info">Info</button>
+            <button type="button" className="btn btn-light">Light</button>
+            <button type="button" className="btn btn-dark">Dark</button>
+
+            <button type="button" className="btn btn-outline-secondary">Link</button>
+            
+            <button type="button" className="btn btn-outline-cor-teste">Link</button>
+
+        </>
         )
 }

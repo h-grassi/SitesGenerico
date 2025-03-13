@@ -1,11 +1,52 @@
+import { Card1, Card2 } from "@/Componentes/Cards";
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <h1>Página Home</h1>
-        </div>
-      </main>
-    </div>
+      <main>
+        <div id="carouselExampleCaptions" className="carousel slide">
+          <div className="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src="/imagens/imgTeste1.jpg" className="d-block imgCarrosel" alt="teste imagem 1"/>
+              <div className="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src="/imagens/imgTeste2.jpg" className="d-block imgCarrosel" alt="..."/>
+              <div className="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src="/imagens/imgTeste3.jpg" className="d-block imgCarrosel" alt="..."/>
+              <div className="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+      </div>
+      <Card1
+        src="/imagens/teste_200x200.png"
+        titulo="Título Card1"
+        resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+        />
+      <Card2/>
+    </main>
   );
 }
