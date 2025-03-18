@@ -41,12 +41,31 @@ export default function Home() {
             <span className="visually-hidden">Next</span>
           </button>
       </div>
-      <Card1
-        src="/imagens/teste_200x200.png"
-        titulo="Título Card1"
-        resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
-        />
-      <Card2/>
+      <div className="container border ">
+        <div className="row">
+          <div className="col-md-6 col-xl-4 col-sm-12 border">
+          <Card1
+            src="/imagens/teste_150x200.jpg"
+            titulo="Título Card1"
+            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+          />
+          </div>
+          <div className="col-md-6 col-xl-4 col-sm-12 border">
+          <Card1
+            src="/imagens/teste_150x200.jpg"
+            titulo="Título Card1"
+            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+          />
+          </div>
+          <div className="col-md-6 col-xl-4 col-sm-12 border">
+          <Card1
+            src="/imagens/teste_150x200.jpg"
+            titulo="Título Card1"
+            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+          />
+          </div>
+        </div>
+      </div>
     </main>
   );
 }

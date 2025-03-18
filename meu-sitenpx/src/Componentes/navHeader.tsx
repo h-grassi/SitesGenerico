@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 export default function NavHeader(){
     return(
         <>
@@ -46,7 +47,8 @@ export default function NavHeader(){
                             <li className="nav-item ">
                                 <button className="btn btn-outline-secondary border-0">
                                     <a className="linkNavBar link-underline link-underline-opacity-0 " 
-                                    href="https://api.whatsapp.com/send?phone=993356505&text=Olá! Teste de mensagem automática">Consultar</a><br/>
+                                    href="https://api.whatsapp.com/send?phone=993356505&text=Olá! Teste de mensagem automática"
+                                    target="_blank">Consultar</a><br/>
                                 </button>
                             </li>
                         </ul>
