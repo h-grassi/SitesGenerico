@@ -25,3 +25,14 @@ $theme-colors: map-merge($theme-colors , $cores-customizadas);
     width: 200px;
     height:200px;
 }
+
+/* seta de dropdown, utilizado nas seções de leitura*/
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.4s ease-in-out;
+    }
+  
+  .dropdown-toggle:not(.collapsed)::after {
+    transform: rotate(-180deg);
+    }
