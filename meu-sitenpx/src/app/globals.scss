@@ -44,3 +44,9 @@ $theme-colors: map-merge($theme-colors , $cores-customizadas);
     .subItemIndice:hover{
         color:#0066CC;
     }
+
+//justificar todos os textos
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}

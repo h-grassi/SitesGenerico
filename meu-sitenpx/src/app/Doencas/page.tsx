@@ -44,7 +44,64 @@ export default function Doencas(){
               <div className="col-md-10 border p-4">
                 <Texto1 titulo="Título"
                  subtitulo="Subtítulo aqui."
-                 texto="<p className = ''1h-lg''>Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b></p>"/>
+                 texto="<p>Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+                      </p>"/>
               </div>
             </div>
           </div>

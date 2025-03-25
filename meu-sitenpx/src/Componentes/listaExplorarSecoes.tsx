@@ -4,7 +4,8 @@ function ExplorarSecoes ({indice}: {indice: any}) {
        return(<></>)
    }else{
         return (
-            <div className="col-md-2 p-4 border">
+            <div className="col-lg-2 px-5 py-1 border ">
+                <div className="sticky-top pt-3">
                 <h4>Índice</h4>
                 <ul className="list-group list-group-flush">
                     {indice?.map((obj: any)=>(
@@ -26,6 +27,7 @@ function ExplorarSecoes ({indice}: {indice: any}) {
                         </li>
                     ))}
                 </ul>
+                </div>
             </div>
         );
     }
