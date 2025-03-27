@@ -1,7 +1,7 @@
 
 export default function Footer(){
     return(
-        <footer className="bg-dark text-center text-white">
+        <footer className="bg-dark text-center text-white" id="footer">
   <div className=" p-4 pb-0">
     <section className="mb-4">
       <a className="btn btn-outline-light btn-floating border-dark" href="#" id="whatsapp">  

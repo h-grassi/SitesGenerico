@@ -2,13 +2,22 @@ import Link from "next/link";
 import { LinksExternos, LinksInternos } from "./navItens";
 
 export default function NavHeader(){
+    const closeNavbar = () => {
+        const navbar = document.getElementById("navbarDropdown");
+        /*if (navbar) {
+            navbar.setAttribute("data-bs-toggle","collapse");
+            navbar.setAttribute("data-bs-target","#navbarDropdown");
+            navbar.setAttribute("aria-controls","navbarDropdown");
+        }*/
+      };
     return(
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary bg-secondary-subtle">
+            <nav className="navbar navbar-expand-lg bg-secondary-subtle">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Meu Site</a>
+                    <a className="h1 navbar-brand" href="/">Meu Site</a>
                     <button 
                         className="navbar-toggler" 
+                        id="botaoCollapse"
                         type="button" 
                         data-bs-toggle="collapse" 
                         data-bs-target="#navbarDropdown" 
@@ -21,15 +30,15 @@ export default function NavHeader(){
             </nav>
 
             <nav className="navbar navbar-expand-lg bg-body-tertiary p-0" >
-                <div className="container-fluid" >
-                    <div className="collapse navbar-collapse text-sm" id="navbarDropdown">
-                        <ul className="navbar-nav ">
+                <div className="container-fluid " >
+                    <div className=" navbar-collapse text-sm" id="navbarDropdown" onClick={closeNavbar}>
+                        <ul className="navbar-nav">
                             <LinksInternos href="/" label="Home"/>
                             <LinksInternos href="/Artigos" label="Artigos"/>
                             <LinksInternos href="/Doencas" label="Doenças"/>
                             <LinksInternos href="/Exames" label="Exames"/>
                             <LinksInternos href="/Sobre" label="Sobre"/>
-                            <LinksExternos href="https://api.whatsapp.com/send?phone=993356505&text=Olá! Teste de mensagem automática" label = "Consultar"/>
+                            <LinksExternos href="https://api.whatsapp.com/send?phone=993356505&text=Olá! Teste de mensagem automática" target="_blank" label = "Consultar"/>
                             <LinksExternos href="#footer" label = "Entrar em contato"/>
                         </ul>
                     </div>

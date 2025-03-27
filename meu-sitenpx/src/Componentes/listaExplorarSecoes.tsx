@@ -10,7 +10,7 @@ function ExplorarSecoes ({indice}: {indice: any}) {
                 <ul className="list-group list-group-flush">
                     {indice?.map((obj: any)=>(
                         <li className="list-group-item">
-                        <a className={`h6 link-underline link-underline-opacity-0 ${obj.subItens == null ? "" : "dropdown-toggle"}`} href={obj.href} data-bs-toggle="collapse"
+                        <a className={`h6 text-decoration-none ${obj.subItens == null ? "" : "dropdown-toggle"}`} href={obj.href} data-bs-toggle="collapse"
                             data-bs-target={"#" + obj.collapse} aria-expanded="true" aria-controls={obj.collapse}> 
                             {obj.item} 
                             </a>
@@ -18,7 +18,7 @@ function ExplorarSecoes ({indice}: {indice: any}) {
                                 (<div className="collapse collapse-vertical" id={obj.collapse}>
                                     <ul className="list-group list-group-flush">
                                         <li className="list-group-item ">
-                                            <a className="subItemIndice link-underline link-underline-opacity-0" href={sub.href}>{sub.subItem}</a>
+                                            <a className="subItemIndice text-decoration-none" href={sub.href}>{sub.subItem}</a>
                                         </li>
                                     </ul>
                                 </div>

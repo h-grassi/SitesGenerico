@@ -41,7 +41,8 @@ export default function Doencas(){
           <div className="container border">
             <div className="row">
               <ExplorarSecoes indice={indice}/>
-              <div className="col-md-10 border p-4">
+              <div className="col-lg-10 border p-3">
+                <img className="img-fluid rounded mb-2 border border-4 border-secondary-subtle" src="/imagens/imgTeste1.jpg"/>
                 <Texto1 titulo="Título"
                  subtitulo="Subtítulo aqui."
                  texto="<p>Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>

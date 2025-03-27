@@ -2,7 +2,7 @@ import { Card1, Card2 } from "@/Componentes/Cards";
 
 export default function Home() {
   return (
-      <main>
+      <main className="bg-cor-background">
         <div id="carouselExampleCaptions" className="carousel slide">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -41,31 +41,29 @@ export default function Home() {
             <span className="visually-hidden">Next</span>
           </button>
       </div>
-      <div className="container border ">
-        <div className="row">
-          <div className="col-md-6 col-xl-4 col-sm-12 border">
+        <div className="row border">
           <Card1
             src="/imagens/teste_150x200.jpg"
             titulo="Título Card1"
             resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
           />
-          </div>
-          <div className="col-md-6 col-xl-4 col-sm-12 border">
+          <Card2
+            src="/imagens/teste_150x200.jpg"
+            titulo="Título Card2"
+            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+          />
           <Card1
             src="/imagens/teste_150x200.jpg"
             titulo="Título Card1"
             resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
           />
-          </div>
-          <div className="col-md-6 col-xl-4 col-sm-12 border">
-          <Card1
+          <Card2
             src="/imagens/teste_150x200.jpg"
-            titulo="Título Card1"
-            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+            titulo="Título Card2"
+            resumo ="Clicando neste card você será redirecionado para a página Doenças."
+            href="/Doencas"
           />
-          </div>
         </div>
-      </div>
     </main>
   );
 }
