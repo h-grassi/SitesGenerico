@@ -1,3 +1,4 @@
+//card com imagem a esquerda, sombreado e comportamento hover
 export function Card1(props:any){
     return(
         <>
@@ -18,6 +19,7 @@ export function Card1(props:any){
     )
 }
 
+//card com imagem a direita, sombreado e comportamento hover
 export function Card2(props:any){
     return(
         <>
@@ -32,6 +34,19 @@ export function Card2(props:any){
                             <img className="imgCard1 img-fluid rounded-start" src={props.src} />
                         </div>
                     </div>
+                </div>
+            </div>
+        </>
+    )
+}
+//Card de texto para realçar partes importantes dos textos e arquivos
+
+export function Card3(props:any){
+    return(
+        <>
+            <div className="col-lg-6 offset-lg-3 card bg-secondary-subtle" >
+                <div className="card-body py-2 px-1 text-center">
+                    <h6 className="m-0">{props.texto}</h6>
                 </div>
             </div>
         </>
