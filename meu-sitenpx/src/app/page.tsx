@@ -1,4 +1,5 @@
 import { Card1, Card2 } from "@/Componentes/Cards";
+import { HomeTexto1 } from "@/Componentes/Textos";
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
           </button>
+      </div>
+      <div>
+        <HomeTexto1/>
       </div>
         <div className="row border">
           <Card1

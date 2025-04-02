@@ -6,6 +6,34 @@ que será exibida, seguindo o modelo abaixo:
 nomePágina + texto + número do texto  
 exemplo: DoencasTexto1
 */
+
+function HomeTexto1(){
+  return(
+    <>
+      <hr className="featurette-divider"></hr>
+      <div className="col col-lg-8 offset-lg-2">
+        <h1 className="text-center m-4">Título</h1>
+        <p className="mx-2 lh-lg">Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+            Corpo do texto aqui, aqui temos muito texto, várias palavras, <b> variável aceita tags</b>
+        </p>
+      </div>
+    </>
+  )
+}
 function DoencasTexto1(){
   return(
     <>
@@ -46,18 +74,5 @@ function DoencasTexto1(){
   )
 };
 
-function Texto2(props: any){
-  return(
-    <>
-      <h1 className="text-center fw-bold">{props.titulo}</h1>
-      <h4 className="text-center"><small className="text-body-secondary">{props.subtitulo}</small></h4>
-      <hr className="featurette-divider"></hr>
-      <div>
-          
-      </div>
-    </>
-    )
-}
-
-export {DoencasTexto1};
+export {DoencasTexto1, HomeTexto1};
 

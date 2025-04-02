@@ -2,14 +2,6 @@ import Link from "next/link";
 import { LinksExternos, LinksInternos } from "./navItens";
 
 export default function NavHeader(){
-    const closeNavbar = () => {
-        const navbar = document.getElementById("navbarDropdown");
-        /*if (navbar) {
-            navbar.setAttribute("data-bs-toggle","collapse");
-            navbar.setAttribute("data-bs-target","#navbarDropdown");
-            navbar.setAttribute("aria-controls","navbarDropdown");
-        }*/
-      };
     return(
         <>
             <nav className="navbar navbar-expand-lg bg-secondary-subtle">
@@ -31,7 +23,7 @@ export default function NavHeader(){
 
             <nav className="navbar navbar-expand-lg bg-body-tertiary p-0" >
                 <div className="container-fluid " >
-                    <div className=" navbar-collapse text-sm" id="navbarDropdown" onClick={closeNavbar}>
+                    <div className=" navbar-collapse text-sm" id="navbarDropdown">
                         <ul className="navbar-nav">
                             <LinksInternos href="/" label="Home"/>
                             <LinksInternos href="/Artigos" label="Artigos"/>
