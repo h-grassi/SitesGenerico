@@ -26,13 +26,12 @@ export default function NavHeader(){
                     <div className=" navbar-collapse text-sm" id="navbarDropdown">
                         <ul className="navbar-nav">
                             <LinksInternos href="/" label="Home"/>
-                            <LinksInternos href="/Artigos" label="Artigos"/>
                             <LinksInternos href="/Doencas" label="Doenças"/>
-                            <LinksInternos href="/Exames" label="Exames"/>
                             <LinksInternos href="/Sobre" label="Sobre"/>
                             <LinksExternos href="https://api.whatsapp.com/send?phone=993356505&text=Olá! Teste de mensagem automática" target="_blank" label = "Consultar"/>
                             <LinksExternos href="#footer" label = "Entrar em contato"/>
                             <LinksInternos href="/Parceiros" label="Médicos Parceiros"/>
+                            <LinksInternos href="/Parceiros2" label="Médicos Parceiros2"/>
                         </ul>
                     </div>
                 </div>    

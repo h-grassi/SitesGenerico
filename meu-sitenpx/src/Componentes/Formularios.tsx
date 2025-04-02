@@ -16,7 +16,7 @@ export function Select1 ({ opcao, item0, label }: { opcao: any[], item0: string,
         }
     };
     return(
-        <>
+        <div className="col-10 offset-1">
              <h6>{label}</h6>
             <div className="btn-group">
                 <select className="form-select" onChange={handleChange}>
@@ -27,6 +27,6 @@ export function Select1 ({ opcao, item0, label }: { opcao: any[], item0: string,
                 </select>
                 <button className="btn btn-secondary" onClick={handleClick}>Procurar</button>
             </div>
-        </>
+        </div>
     )
 }
