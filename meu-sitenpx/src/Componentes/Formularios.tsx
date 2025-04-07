@@ -30,3 +30,16 @@ export function Select1 ({ opcao, item0, label }: { opcao: any[], item0: string,
         </div>
     )
 }
+
+
+export function BarraPesquisa(){
+    return(
+        <div className="col-10 offset-1 p-2">
+            <h4 className="">Utilize o filtro:</h4>
+            <button className="btn btn-primary btn-sm mx-1 active" id="todos">Todos</button>
+            <button className="btn btn-primary btn-sm mx-1" id="espec1">Espec 1</button>
+            <button className="btn btn-primary btn-sm mx-1" id="espec2">Espec 2</button>
+            <button className="btn btn-primary btn-sm mx-1" id="espec3">Espec 3</button>
+        </div>
+    )
+}
