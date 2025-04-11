@@ -7,7 +7,7 @@ import "./globals.scss";
 
 //import { useEffect } from "react";
 import Footer from "@/Componentes/Footer";
-import NavHeader from "@/Componentes/navHeader";
+import {NavHeaderBig} from '@/Componentes/navHeader';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +29,7 @@ export default function RootLayout({
     return (
       <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} bg-cor-background`}>
-          <NavHeader/>
+          <NavHeaderBig/>
           {children}
           <Footer/>
       </body>

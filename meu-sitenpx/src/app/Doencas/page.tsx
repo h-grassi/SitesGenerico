@@ -1,4 +1,3 @@
-import { Card3 } from "@/Componentes/Cards";
 import {ExplorarSecoes} from "@/Componentes/listaExplorarSecoes"
 import { DoencasTexto1 } from "@/Componentes/Textos";
 
@@ -38,11 +37,16 @@ export default function Doencas(){
 ];
   return(
       <>
-        <main className="mt-4 mb-2 p-3">
-          <div className="container border">
+        <main className="mt-4 mb-2 p-2">
+          <div className="container ">
             <div className="row">
+              <div className="row">
+                <div className="col-lg-10 offset-lg-2 p-0 ">
+                  <h1 className="text-center my-0">Título da página</h1>
+                </div>
+              </div>
               <ExplorarSecoes indice={indice}/>
-              <div className="col-lg-10 border p-3">
+              <div className="col-lg-10 p-3">
                 <img className="img-fluid rounded mb-2 border border-4 border-secondary-subtle" src="/imagens/imgTeste1.jpg"/>
                 <DoencasTexto1 />
               </div>

@@ -34,11 +34,6 @@ export default function Home() {
         <HomeTexto1/>
       </div>
         <div className="row border">
-          <Card1
-            src="/imagens/teste_150x200.jpg"
-            titulo="Título Card1"
-            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
-          />
           <Card2
             src="/imagens/teste_150x200.jpg"
             titulo="Título Card2"

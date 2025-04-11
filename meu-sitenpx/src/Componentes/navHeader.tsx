@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { LinksExternos, LinksInternos } from "./navItens";
 
-export default function NavHeader(){
+export function NavHeaderBig(){
     return(
         <>
             <nav className="navbar navbar-expand-lg bg-secondary-subtle">
@@ -31,7 +31,6 @@ export default function NavHeader(){
                             <LinksExternos href="https://api.whatsapp.com/send?phone=993356505&text=Olá! Teste de mensagem automática" target="_blank" label = "Consultar"/>
                             <LinksExternos href="#footer" label = "Entrar em contato"/>
                             <LinksInternos href="/Parceiros" label="Médicos Parceiros"/>
-                            <LinksInternos href="/Parceiros2" label="Médicos Parceiros2"/>
                         </ul>
                     </div>
                 </div>    

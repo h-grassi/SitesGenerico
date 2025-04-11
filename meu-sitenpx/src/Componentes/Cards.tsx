@@ -1,7 +1,7 @@
 //card com imagem a esquerda, sombreado e comportamento hover
 export function Card1(props:any){
     return(
-        <div className="col-md-6 col-xl-4 col-sm-12 border">
+        <div className="col-md-6 col-xl-4 col-sm-12">
             <div className="card mb-3 m-2 card-has-bg shadow">
                 <div className="row">
                     <div className="col-4 ">
@@ -20,7 +20,7 @@ export function Card1(props:any){
 //card com imagem a direita, sombreado e comportamento hover
 export function Card2(props:any){
     return(
-        <div className="col-md-6 col-xl-4 col-sm-12 border">
+        <div className="col-md-6 col-xl-4 col-sm-12">
             <div className="card mb-3 m-2 card-has-bg">
                 <div className="row">
                     <div className="col-8 card-body text-primary-emphasis">
@@ -58,6 +58,23 @@ export function Card4(props:any){
                 <p className="mb-2"><b>Endereço:</b> {props.endereco}</p>
                 <p className="mb-2"><b>Site:</b> <a href={props.href}>{props.site}</a></p>
             </div>
+        </div>
+    )
+}
+
+//Card utilizado para Informações de contato
+export function Card5(props: any){
+    return(
+        <div className="mx-5 my-3 row justify-content-center">
+            <div className="m-2 col-lg-1"> 
+                <svg width="50" height="50" viewBox="0 0 16 16">
+                    <path d={props.d}/>
+                </svg>
+            </div>
+            <div className=" col-lg-2">
+                <h5 className="m-0"><b>{props.title}</b></h5>
+                <p>{props.label}</p>
+            </div>    
         </div>
     )
 }

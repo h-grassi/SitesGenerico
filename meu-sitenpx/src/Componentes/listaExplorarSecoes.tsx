@@ -4,7 +4,7 @@ function ExplorarSecoes ({indice}: {indice: any}) {
        return(<></>)
    }else{
         return (
-            <div className="col-lg-2 px-5 py-1 border ">
+            <div className="col-lg-2 px-5 py-1">
                 <div className="sticky-top pt-3">
                 <h4>Índice</h4>
                 <ul className="list-group list-group-flush">

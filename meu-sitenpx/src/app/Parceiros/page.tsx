@@ -13,8 +13,9 @@ export default function Parceiros(){
     ]
     return(
         <>
-            <h1>Parceiros</h1>
-            <h2 >Lista de contatos com informações básicas, tipo uma lista técnica</h2>
+            <h1 className="text-center m-4">Parceiros</h1>
+            <h2 className="text-center m-4">Lista de contatos com informações básicas, tipo uma lista técnica</h2>
+            <hr className="featurette-divider"></hr>
             <div className= "sticky-top bg-white">
                 <Select1 
                     label="Filtre a especialidade desejada"
