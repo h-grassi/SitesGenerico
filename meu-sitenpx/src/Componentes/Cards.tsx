@@ -17,7 +17,7 @@ export function Card1(props:any){
     )
 }
 
-//card com imagem a direita, sombreado e comportamento hover
+//card com imagem a direita, sombreado e comportamento hover, contém link de navegação
 export function Card2(props:any){
     return(
         <div className="col-md-6 col-xl-4 col-sm-12">
