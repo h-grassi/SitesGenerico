@@ -31,7 +31,6 @@ export default function Parceiros(){
                 endereco="rua joao 1"
                 href="#"
                 site="www.site1.com"
-                display="none"
             />
             <Card4
                 id="item2"

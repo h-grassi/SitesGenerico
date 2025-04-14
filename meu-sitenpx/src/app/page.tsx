@@ -37,17 +37,17 @@ export default function Home() {
           <Card2
             src="/imagens/teste_150x200.jpg"
             titulo="Título Card2"
-            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+            texto ="algum texto informativo de poucas frases que resuma o assunto tratado. "
           />
           <Card1
             src="/imagens/teste_150x200.jpg"
             titulo="Título Card1"
-            resumo ="algum texto informativo de poucas frases que resuma o assunto tratado. "
+            texto ="algum texto informativo de poucas frases que resuma o assunto tratado. "
           />
           <Card2
             src="/imagens/teste_150x200.jpg"
             titulo="Título Card2"
-            resumo ="Clicando neste card você será redirecionado para a página Doenças."
+            texto ="Clicando neste card você será redirecionado para a página Doenças."
             href="/Doencas"
           />
         </div>

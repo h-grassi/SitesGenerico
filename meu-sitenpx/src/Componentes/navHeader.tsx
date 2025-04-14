@@ -6,7 +6,7 @@ export function NavHeaderBig(){
         <>
             <nav className="navbar navbar-expand-lg bg-secondary-subtle">
                 <div className="container-fluid">
-                    <a className="h1 navbar-brand" href="/">Meu Site</a>
+                    <Link className="h1 navbar-brand" href="/">Meu Site</Link>
                     <button 
                         className="navbar-toggler" 
                         id="botaoCollapse"

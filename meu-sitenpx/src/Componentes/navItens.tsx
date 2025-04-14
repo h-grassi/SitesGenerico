@@ -1,30 +1,33 @@
 import Link from "next/link";
 
-function LinksInternos (props: any){
+interface props {
+    href: string;
+    label: string;
+    target?: "_blank" | "_self" | "_parent" | "_top"; // target é opcional (?)
+  }
+
+function LinksInternos ({href, label}:props){
     return(
         <li className="nav-item">
             <button className="btn btn-outline-secondary border-0">
-                <Link className="linkNavBar link-underline link-underline-opacity-0" href={props.href}>{props.label}</Link>
+                <Link className="linkNavBar link-underline link-underline-opacity-0" href={href}>{label}</Link>
             </button>
         </li>    
     )
 };
 
-function LinksExternos (props: any){
+function LinksExternos ({href, label,target}:props){
     return(
         <li className="nav-item">
             <button className="btn btn-outline-secondary border-0">
                 <a className="linkNavBar link-underline link-underline-opacity-0 " 
-                    href={props.href}
-                    target={props.target}>
-                    {props.label}
+                    href={href}
+                    target={target}>
+                    {label}
                 </a>
             </button>
         </li>
     )
 };
 
-const teste= (event: React.MouseEventHandler<HTMLButtonElement>) =>{
-    console.log("clicou")
-}
 export{LinksInternos, LinksExternos}

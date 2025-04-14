@@ -2,6 +2,12 @@
 "use client";
 import { useState } from "react";
 
+interface props{
+    ordem: string;
+    label: string;
+    href: string;
+    item0: string;
+}
 export function Select1 ({ opcao, item0, label }: { opcao: any[], item0: string, label:string }){
     
     const [selectedHref, setSelectedHref] = useState("");
