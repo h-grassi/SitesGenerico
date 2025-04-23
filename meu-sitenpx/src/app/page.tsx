@@ -1,8 +1,17 @@
+"use client";
 import { Card1, Card2 } from "@/Componentes/Cards";
 import { HomeTexto1 } from "@/Componentes/Textos";
 
+//
+import Script from 'next/script';
+//
 export default function Home() {
+  
   return (
+    <>
+    <Script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    strategy="afterInteractive"/>
       <main className="bg-cor-background">
         <div id="carouselExampleCaptions" className="carousel slide">
           <div className="carousel-indicators">
@@ -52,5 +61,6 @@ export default function Home() {
           />
         </div>
     </main>
+    </>
   );
 }
