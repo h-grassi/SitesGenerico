@@ -1,9 +1,9 @@
-import {ExplorarSecoes} from "@/Componentes/listaExplorarSecoes"
+import {ExplorarSecoes, IndiceItem } from "@/Componentes/listaExplorarSecoes"
 import { DoencasTexto1 } from "@/Componentes/Textos";
 
 export default function Doencas(){
 
-  const indice =[{
+  const indice: IndiceItem[] =[{
     item: "parte 1",
     collapse:"collapse1",
     subItens: [

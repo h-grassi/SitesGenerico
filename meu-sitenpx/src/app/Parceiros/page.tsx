@@ -1,16 +1,17 @@
 import { Card4 } from "@/Componentes/Cards";
-import { Select1 } from "@/Componentes/Formularios";
+import { Select1, OpcaoSelect } from "@/Componentes/Formularios";
 
 export default function Parceiros(){
-    const itens =[
-        {ordem: "1", label: "item1", href: "#item1"},
-        {ordem: "2", label: "item2", href: "#item2"},
-        {ordem: "3", label: "item3", href: "#item3"},
-        {ordem: "4", label: "item4", href: "#item4"} ,
-        {ordem: "5", label: "item5", href: "#item5"} ,
-        {ordem: "6", label: "item6", href: "#item6"} ,
-        {ordem: "7", label: "item7", href: "#item7"}    
-    ]
+    const itens: OpcaoSelect[] = [
+        { ordem: "1", label: "item1", href: "#item1" },
+        { ordem: "2", label: "item2", href: "#item2" },
+        { ordem: "3", label: "item3", href: "#item3" },
+        { ordem: "4", label: "item4", href: "#item4" },
+        { ordem: "5", label: "item5", href: "#item5" },
+        { ordem: "6", label: "item6", href: "#item6" },
+        { ordem: "7", label: "item7", href: "#item7" },
+      ];
+      
     return(
         <>
             <h1 className="text-center m-4">Parceiros</h1>
