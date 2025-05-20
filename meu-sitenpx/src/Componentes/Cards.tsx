@@ -51,8 +51,8 @@ export function Card2({src, titulo, texto, href}: props){
         </div>
     )
 }
-//Card de texto para realçar partes importantes dos textos e arquivos
 
+//Card de texto para realçar partes importantes dos textos e arquivos
 export function Card3({texto}: props){
     return(
         <div className="col-lg-6 offset-lg-3 card bg-secondary-subtle" >
@@ -63,7 +63,7 @@ export function Card3({texto}: props){
     )
 }
 
-//Card para utilização na página Médicos parceiros
+//Card para utilização na página parceiros
 export function Card4({id, nome, especialidade, telefone, endereco, href, site}:props){
     return(
         <div className="card p-0 m-4" id={id}>

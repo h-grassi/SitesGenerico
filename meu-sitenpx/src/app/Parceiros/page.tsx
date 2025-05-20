@@ -15,9 +15,9 @@ export default function Parceiros(){
     return(
         <>
             <h1 className="text-center m-4">Parceiros</h1>
-            <h2 className="text-center m-4">Lista de contatos com informações básicas, tipo uma lista técnica</h2>
+            <h2 className="text-center m-4">Lista de contatos com informações básicas, lista técnica</h2>
             <hr className="featurette-divider"></hr>
-            <div className= "sticky-top bg-white">
+            <div>
                 <Select1 
                     label="Filtre a especialidade desejada"
                     item0 = "Clique aqui para escolher uma especialidade."
@@ -45,47 +45,47 @@ export default function Parceiros(){
             <Card4
                 id="item3"
                 nome="nome parceiro 3"
-                especialidade=" especialidade 2"
+                especialidade=" especialidade 3"
                 telefone="(51)9999-9999"
-                endereco="rua joao 2"
+                endereco="rua joao 3"
                 href="#"
-                site="www.site2.com"
+                site="www.site3.com"
             />
             <Card4
                 id="item4"
                 nome="nome parceiro 4"
                 especialidade=" especialidade 4"
                 telefone="(51)9999-9999"
-                endereco="rua joao 3"
+                endereco="rua joao 4"
                 href="#"
-                site="www.site3.com"
+                site="www.site4.com"
             />
             <Card4
                 id="item5"
                 nome="nome parceiro 5"
                 especialidade=" especialidade 5"
                 telefone="(51)9999-9999"
-                endereco="rua joao 3"
+                endereco="rua joao 5"
                 href="#"
-                site="www.site3.com"
+                site="www.site5.com"
             />
             <Card4
                 id="item6"
                 nome="nome parceiro 6"
-                especialidade=" especialidade 3"
+                especialidade=" especialidade 6"
                 telefone="(51)9999-9999"
-                endereco="rua joao 3"
+                endereco="rua joao 6"
                 href="#"
-                site="www.site3.com"
+                site="www.site6.com"
             />
             <Card4
                 id="item7"
                 nome="nome parceiro 7"
-                especialidade=" especialidade 3"
+                especialidade=" especialidade 7"
                 telefone="(51)9999-9999"
-                endereco="rua joao 3"
+                endereco="rua joao 7"
                 href="#"
-                site="www.site3.com"
+                site="www.site7.com"
             />
         </>
     )

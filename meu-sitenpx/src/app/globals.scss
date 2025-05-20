@@ -54,19 +54,10 @@ p{
     text-align: justify;
     text-justify: inter-word;
 }
-/*
-.hoverCard{
-    background-color: whitesmoke;
-}
-    .hoverCard:hover{
-        background-color:white;
-        box-shadow: 100px;
-        background-size: 150%;
-    }*/
-    .card{
-        transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-        overflow:hidden;
-        border-radius:20px;
+.card{
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow:hidden;
+    border-radius:20px;
       
        &.card-has-bg{
        transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);

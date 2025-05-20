@@ -3,7 +3,7 @@ import Link from "next/link";
 interface props {
     href: string;
     label: string;
-    target?: "_blank" | "_self" | "_parent" | "_top"; // target é opcional (?)
+    target?: "_blank" | "_self" | "_parent" | "_top"; // target é opcional
   }
 
 function LinksInternos ({href, label}:props){

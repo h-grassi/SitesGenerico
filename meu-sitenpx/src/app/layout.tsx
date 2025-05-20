@@ -1,22 +1,8 @@
-//"use client";
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { useBootstrap } from "@/hook/useBootstrap"
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.scss";
 
-//import { useEffect } from "react";
 import Footer from "@/Componentes/Footer";
 import {NavHeaderBig} from '@/Componentes/navHeader';
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export default function RootLayout({
   children,
@@ -27,7 +13,7 @@ export default function RootLayout({
   {
     return (
       <html lang="en">
-        <body className={`${geistSans.variable} ${geistMono.variable} bg-cor-background`}>
+        <body className={`bg-cor-background`}>
           <NavHeaderBig/>
           {children}
           <Footer/>
